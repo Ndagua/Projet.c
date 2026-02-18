@@ -15,9 +15,14 @@ do{
         	somme=somme+x;
         	cpt++;
 		}
-		
+		else{
+			somme1=somme1+x;
+			cpt1++;
+		}
     }
     moy=somme/cpt;
+    moyi=somme1/cpt1;
     printf("La moyenne des nombres pairs est : %f",moy);
+    printf("La moyenne des nombres impairs est : %f",moyi);
 return 0;
 }
